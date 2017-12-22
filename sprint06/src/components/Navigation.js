@@ -1,6 +1,5 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-// import SubNav from './SubNav';
 
 const Navigation = () => {
     return (
@@ -13,14 +12,5 @@ const Navigation = () => {
         </div>
     );
     }
-
-const SubNav = () => {
-    return (
-        <div>
-            <Link to = '/'>1</Link>
-        </div>
-    );
-}
-
 
 export default Navigation;
